@@ -1,0 +1,27 @@
+{
+  "name": "Tab Grouper",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs",
+    "tabGroups", 
+    "storage"
+  ], 
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "icons": {
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "browser_style": true,
+    "default_icon": {
+      "128": "icons/icon-128.png"
+    },
+    "theme_icons": [{
+      "light": "icons/icon-128.png",
+      "dark": "icons/dark/icon-128.png",
+      "size": 128
+    }] 
+  }
+}
