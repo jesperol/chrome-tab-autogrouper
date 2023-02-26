@@ -1,5 +1,6 @@
 {
   "name": "Tab Grouper",
+  "description": "Automatically places new tabs in a group so that the active tab gets clearly highligted.", 
   "version": "0.1",
   "manifest_version": 3,
   "permissions": [
@@ -11,17 +12,12 @@
     "service_worker": "service_worker.js"
   },
   "icons": {
-    "128": "icons/icon-128.png"
+    "48": "icons/group_dark-48.png"
   },
   "action": {
     "browser_style": true,
     "default_icon": {
-      "128": "icons/icon-128.png"
-    },
-    "theme_icons": [{
-      "light": "icons/icon-128.png",
-      "dark": "icons/dark/icon-128.png",
-      "size": 128
-    }] 
+      "48": "icons/group_dark-48.png"
+    }
   }
 }
