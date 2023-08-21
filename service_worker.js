@@ -23,7 +23,7 @@ function groupTabsPerchance(toggle) {
                 switch(groups.length) {
                     case 0:
                         chrome.tabs.group({ tabIds: tabIds }).then((groupId) => {
-                            chrome.tabGroups.update(groupId, { title: "JO", color: "grey" });
+                            chrome.tabGroups.update(groupId, { title: "T", color: "grey" });
                         });
                         console.log("No tabgroups detected, creating one for all tabs");
                         break;

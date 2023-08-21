@@ -1,6 +1,6 @@
 {
   "name": "Tab Grouper",
-  "description": "Automatically places new tabs in a group so that the active tab gets clearly highligted.", 
+  "description": "Automatically places new tabs in a group so that the active tab gets easily idenifiable, even with dark theme.", 
   "version": "0.1",
   "manifest_version": 3,
   "permissions": [
